@@ -1,6 +1,3 @@
-
-![lau4](https://github.com/user-attachments/assets/bc55189c-aa4a-494a-940b-159a36543c9d)
-
 # Project1 - Around The World
 
 ## Descrição do Projeto
