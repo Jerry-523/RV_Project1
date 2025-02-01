@@ -1,7 +1,7 @@
 # Project1 - Around The World
 
 ## Descrição do Projeto
-Este projeto Unity utiliza a **API OpenWeather** para exibir informações climáticas e a hora local em tempo real. A interface é construída com **objetos 3D** e **TextMeshPro**, oferecendo uma experiência visual interativa e informativa. O projeto foi implementado no **Unity 2022.2.21f1**, com suporte opcional para **Vuforia (10.27.3)**, permitindo futuras expansões para realidade aumentada (AR).
+Este projeto Unity utiliza a **API OpenWeather** para exibir informações climáticas e a hora local em tempo real. A interface é construída com **objetos 3D** e **TextMeshPro**.
 
 ---
 
@@ -45,13 +45,13 @@ Este projeto Unity utiliza a **API OpenWeather** para exibir informações clim�
 2. Adicione objetos de texto:
    - Utilize **TextMeshPro** para exibir as informações climáticas e o horário.
      
-![lau2](https://github.com/user-attachments/assets/4cf0278e-8a6f-4422-b97d-55c51bd8f696)
+
 
 ### **3. Configuração da API OpenWeather**
 1. Cadastre-se em [OpenWeather](https://openweathermap.org/) e obtenha uma chave de API.
 2. Insira a chave de API nos campos apropriados nos scripts Unity.
 
-![eloelo](https://github.com/user-attachments/assets/8ad42192-31ee-49e5-b55f-cf1bba520122)
+
 
 ---
 
@@ -126,8 +126,4 @@ Exemplo de cálculo da hora local em tempo real:
 localTime = localTime.AddSeconds(Time.deltaTime);
 messageText.text = "Hora local: " + localTime.ToString("HH:mm:ss");
 ```
-## Autor
-**Silvano Rodrigues**  
-Estudante universitário  
-Desenvolvedor entusiasta com foco em aplicações interativas e integração de APIs.
 
